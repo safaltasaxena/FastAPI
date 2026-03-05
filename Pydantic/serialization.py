@@ -43,6 +43,6 @@ temp3 = patient1.model_dump(
 )
 print(temp3)
 
-#exclude unset
+#exclude unset-default also wont come nothing will come at exportation time
 temp4=patient1.model_dump(exclude_unset=True)
 print(temp4)

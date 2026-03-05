@@ -21,3 +21,8 @@ patient1=Patient(**Patient_dict)
 print(patient1)
 #usecase
 print(patient1.address.city)
+
+#Better organization of related data (eg vitals,address,insurance)
+#Reusabiloty:use vitals in multiple models(eg.patients,medicalRecords)
+#Readability:Easier for developers and API consumers to undderstand
+#Validation :Nested models are validated automatically no extra work needed
