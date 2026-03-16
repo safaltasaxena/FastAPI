@@ -1,3 +1,9 @@
+
+# Virtual Environment
+venv/
+.env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -6,3 +12,20 @@ venv/
 .env
 .DS_Store
 .ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite DB (if using)
+*.db
+
+# Environment variables
+.env
+
